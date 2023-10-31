@@ -31,9 +31,9 @@ function EmailRegistered() {
     <div className='row justify-content-center my-4'>
         <div className='col-sm-6 col-12'>
             <p className={styles.title}>Registered Emails</p>
-            { correos.map(( v ) => {
+            { correos.map(( v, k ) => {
                 return (
-                    <p className={cls(styles.text, '')}>
+                    <p key={k} className={cls(styles.text, '')}>
                         { v }
                     </p>
                 )
