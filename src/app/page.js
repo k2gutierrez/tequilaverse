@@ -12,15 +12,15 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     
-    <div className='container-sm'>
-      <main className={cls(styles.main, 'mt-2')}>
-        <NavBar />
-        <JoinProyect />
-        <VictorS />
-        <Tables />
-        <Carrusel />
-        <Footer />
-      </main>
+    <div className=''>
+      
+      <NavBar />
+      <JoinProyect />
+      <VictorS />
+      <Tables />
+      <Carrusel />
+      <Footer />
+      
     </div>
     
   )

@@ -80,3 +80,62 @@
 .buttonModal {
     background-color: rgb(219, 83, 33);
 }
+
+.imagen {
+    width: 100px;
+    height: 212;
+}
+
+.imagen1 {
+    width: 200px;
+    height: 40px;
+}
+
+.imagen2 {
+    width: 300px;
+    height: 50px;
+}
+
+.carruselTitle {
+    font-size: 30px;
+}
+
+.carruselText {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .imagen1 {
+        height: 40px;
+        width: 150px;
+    }
+
+    .imagen2 {
+        height: 40px;
+        width: 200px;
+    }
+
+    .carruselTitle {
+        font-size: 20px;
+    }
+    
+    .carruselText {
+        font-size: 14px;
+    }
+
+    .victorName {
+        font-size: 22px;
+    }
+    
+    .victorFrase {
+        font-size: 22px;
+    }
+}

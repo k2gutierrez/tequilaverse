@@ -37,7 +37,7 @@ function Tables() {
                     <span className={cls(styles.orange, styles.tableText1)} >TOTAL PRODUCTION: TEQUILA AND 100% TEQUILA</span> <br />
                     <span>Volumes expressed at 40% Alc. Vol. millions of liters</span> 
                 </p>
-                <Image className='' src={grafica2} alt='grafica2' width={586} height={445} />
+                <Image className='img-fluid' src={grafica2} alt='grafica2' width={586} height={445} />
             </div>
             <div className={cls(styles.tableText, 'col-sm-6 col-12')}>
                 <p className='my-5'>

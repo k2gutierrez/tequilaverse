@@ -4,7 +4,7 @@ import cls from 'classnames'
 
 function VictorS() {
   return (
-    <div className={cls(styles.victorBG, 'py-3 text-center')}>
+    <div className={cls(styles.victorBG, 'py-3 px-2 text-center')}>
         <p className={cls(styles.victorFrase)}>
             "Being part of the tequila business has never been this accessible"
         </p>

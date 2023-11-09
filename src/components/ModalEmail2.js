@@ -3,16 +3,12 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import emailButton from '@/public/images/EMAIL_BOTON.png'
-import telegramButton from '@/public/images/TELEGRAM_BOTON.png'
 import logo from '@/public/images/membership.jpg'
 import styles from '@/src/app/page.module.css'
 import { db } from '../firebase/config';
 import { arrayUnion, updateDoc, doc } from 'firebase/firestore';
-import Link from 'next/link';
-import cls from 'classnames'
 
-function ModalEmail() {
+function ModalEmail2() {
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -36,22 +32,10 @@ function ModalEmail() {
 
   return (
     <>
-      <div className='row mt-5'>
-
-        <div className='col-sm-4 col-12'>
+      <div>
           <Button variant='transparent' onClick={handleShow}>
-            <Image className={cls(styles.imagen1, 'img-fluid')} src={emailButton} alt='email' />
+            <p className={styles.footLetters}>E-MAIL SUBSCRIPTION</p>
           </Button>
-        </div>
-
-        <div className='col-sm-8 col-12'>
-          <Button variant='transparent' >
-            <Link href='https://t.me/+qmUIfYLCDBVmZDBh' target='_blank' > 
-              <Image className={cls(styles.imagen2, 'img-fluid')} src={telegramButton} alt='telegram' /> 
-            </Link>
-          </Button>
-        </div>
-
       </div>
 
       <Modal className={styles.modal} show={show} onHide={handleClose}>
@@ -77,4 +61,4 @@ function ModalEmail() {
   );
 }
 
-export default ModalEmail;
+export default ModalEmail2;

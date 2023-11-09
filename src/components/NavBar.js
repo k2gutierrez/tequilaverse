@@ -14,7 +14,7 @@ function NavBar() {
     <Navbar expand="lg" className="bg-transparent" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="/"> <Image className='img-fluid' src={logo} alt='logo' width={352} height={29} /> </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='my-2' />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto gap-5 align-items-center">
                 <Nav.Link className={styles.navLetters} href="#team">TEAM</Nav.Link>

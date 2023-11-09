@@ -28,7 +28,7 @@ function EmailRegistered() {
     }
 
   return (
-    <div className='row justify-content-center my-4'>
+    <div className='row justify-content-center my-4 p-3'>
         <div className='col-sm-6 col-12'>
             <p className={styles.title}>Registered Emails</p>
             { correos.map(( v, k ) => {

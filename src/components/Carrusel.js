@@ -25,57 +25,57 @@ export default function Carrusel() {
             OUR TEAM
         </p>
 
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item>
+        <Carousel className='p-md-5 p-2' activeIndex={index} onSelect={handleSelect}>
+            <Carousel.Item className='p-md-4 p-2' >
                 <div className='row'>
                     <div className='col-4'>
-                        <Link href='https://www.linkedin.com/in/mbamemo/' target='_blank' > <Image className='' src={t1} alt='Memo Gtz' width={347} height={312} /> </Link>
+                        <Link href='https://www.linkedin.com/in/mbamemo/' target='_blank' > <Image className='img-fluid' src={t1} alt='Memo Gtz' width={297} height={262} /> </Link>
                     </div>
                     <div className='col-4'>
-                        <Image className='' src={t2} alt='Kevin' width={347} height={312} />
+                        <Image className='img-fluid' src={t2} alt='Kevin' width={297} height={262} />
                     </div>
                     <div className='col-4'>
-                        <Image className='' src={t3} alt='Disanty' width={347} height={312} />
+                        <Image className='img-fluid' src={t3} alt='Disanty' width={297} height={262} />
                     </div>
                 </div> 
 
                 <div className='row mt-5'>
                     <div className='col-4'>
-                        <h5>Guillermo Gutiérrez <br /> MBA & Master in Blockchain and Crypto by Binance</h5>
-                        <p>Founder</p>
+                        <p className={styles.carruselTitle}>Guillermo Gutiérrez <br /> MBA & Master in Blockchain and Crypto by Binance</p>
+                        <p className={styles.carruselText}>Founder</p>
                     </div>
                     <div className='col-4'>
-                        <h5>Kevin Johnston</h5>
-                        <p>Creative Director of the Metaverse</p>
+                        <p className={styles.carruselTitle}>Kevin Johnston</p>
+                        <p className={styles.carruselText}>Creative Director of the Metaverse</p>
                     </div>
                     <div className='col-4'>
-                        <h5>Víctor Sandoval</h5>
-                        <p>3rd Agave Generation Farmer and Tequila Distiller Disanty Tequila</p>
+                        <p className={styles.carruselTitle}>Víctor Sandoval</p>
+                        <p className={styles.carruselText}>3rd Agave Generation Farmer and Tequila Distiller Disanty Tequila</p>
                     </div>
                 </div>
             </Carousel.Item>
             
             
-            <Carousel.Item>
+            <Carousel.Item className='p-md-4 p-2' >
                 <div className='row'>
                     <div className='col-6'>
                         <Link href='https://www.linkedin.com/in/emmanuel-delva-088006111' target='_blank' >
-                            <Image className='' src={t5} alt='Emmanuel Delva' width={347} height={312} />
+                            <Image className='img-fluid' src={t5} alt='Emmanuel Delva' width={297} height={262} />
                         </Link>
                     </div>
                     <div className='col-6'>
-                        <Image className='' src={t9} alt='Carlos Gtz' width={347} height={312} />
+                        <Image className='img-fluid' src={t9} alt='Carlos Gtz' width={297} height={262} />
                     </div>
                 </div> 
 
                 <div className='row mt-5'>
                     <div className='col-6'>
-                        <h5>Emmanuel Delva</h5>
-                        <p>Law & Tech. PhD in Law</p>
+                        <p className={styles.carruselTitle}>Emmanuel Delva</p>
+                        <p className={styles.carruselText}>Law & Tech. PhD in Law</p>
                     </div>
                     <div className='col-6'>
-                        <h5>Carlos Gutiérrez</h5>
-                        <p>Project Manager & Block Chain Developer</p>
+                        <p className={styles.carruselTitle}>Carlos Gutiérrez</p>
+                        <p className={styles.carruselText}>Cibersecurity Master, BlockChain Developer & Project Manager</p>
                     </div>
                 </div>
             </Carousel.Item>
