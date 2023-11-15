@@ -60,7 +60,7 @@ export default function Carrusel() {
                 <div className='row'>
                     <div className='col-6'>
                         <Link href='https://www.linkedin.com/in/emmanuel-delva-088006111' target='_blank' >
-                            <Image className='img-fluid' src={t5} alt='Emmanuel Delva' width={297} height={262} />
+                            <Image className='img-fluid' src={t5} alt='Emmanuel Delva Abogado' width={297} height={262} />
                         </Link>
                     </div>
                     <div className='col-6'>
