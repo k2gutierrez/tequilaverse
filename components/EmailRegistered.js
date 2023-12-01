@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import styles from '@/src/app/page.module.css'
 import cls from 'classnames'
 import Link from 'next/link'
-import { db } from '../firebase/config'
+import { db } from './firebase/config'
 import { doc, getDoc } from 'firebase/firestore'
 
 function EmailRegistered() {

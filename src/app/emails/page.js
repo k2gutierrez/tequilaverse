@@ -1,8 +1,9 @@
+'use client'
 import styles from '../page.module.css'
 import cls from 'classnames'
-import EmailRegistered from '@/src/components/EmailRegistered'
-import NavBar from '@/src/components/NavBar'
-import Footer from '@/src/components/Footer'
+import EmailRegistered from '@/components/EmailRegistered'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 export default function Emails() {
   return (
