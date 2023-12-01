@@ -1,6 +1,5 @@
-import Image from 'next/image'
+'use client'
 import styles from './page.module.css'
-import cls from 'classnames'
 import JoinProyect from '../components/JoinProyect'
 import VictorS from '../components/VictorS'
 import How from '../components/How'
@@ -12,7 +11,7 @@ import Footer from '../components/Footer'
 export default function Home() {
   return (
     
-    <div className=''>
+    <div className='container-fluid'>
       
       <NavBar />
       <JoinProyect />

@@ -1,5 +1,7 @@
 'use client'
+import { useEffect } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import './globals.css'
 import ImportBootstrap from "@/src/components/ImportBootstrap"
 import "@rainbow-me/rainbowkit/styles.css";
@@ -31,10 +33,16 @@ const wagmiConfig = createConfig({
 })  
 
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
+  
   return (
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        
       </head>
       <body >
         <>
