@@ -6,12 +6,12 @@ import { getStorage } from "firebase/storage";
 //import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: 'AIzaSyAu3uaivU4_dcmDipBtrqr59jCSC5EQY0I',
-    authDomain: 'arquimainfsys.firebaseapp.com',
-    projectId: 'arquimainfsys',
-    storageBucket: 'arquimainfsys.appspot.com',
-    messagingSenderId: '220334849818',
-    appId: '1:220334849818:web:d65e267b0a726f9f5e36a3',
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase

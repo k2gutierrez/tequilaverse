@@ -10,7 +10,7 @@ module.exports = nextConfig
 
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
-  /*reactStrictMode: true,*/
+  /*reactStrictMode: true,
   
   crossOrigin: 'anonymous',
   assetPrefix: isProd ? 'https://tequilaverse.io/' : undefined,
@@ -19,7 +19,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  trailingSlash: true
+  trailingSlash: true*/
 }
 
 module.exports = nextConfig

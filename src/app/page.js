@@ -1,4 +1,4 @@
-'use client'
+
 import styles from './page.module.css'
 import JoinProyect from '../../components/JoinProyect'
 import VictorS from '../../components/VictorS'
